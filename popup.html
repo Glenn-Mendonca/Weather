@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="popup.css" />
+    <script defer src="./popup.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Crimson+Pro:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="popup-body">
+    <div class="container" id="container">
+      <header>
+        <div class="location">
+          <div id="city-country"></div>
+          <div id="clouds"></div>
+        </div>
+        <img id="icon" src="" alt="" />
+      </header>
+      <div class="main">
+        <div class="temperature">
+          <div id="temperature"></div>
+          <button id="unit">°C</button>
+        </div>
+        <div class="details">
+          <h4>Details</h4>
+          <hr />
+          <div class="data">
+            <div class="info">
+              <p>Feels like</p>
+              <div id="info1"></div>
+            </div>
+            <div class="info">
+              <p>Wind</p>
+              <div id="info2"></div>
+            </div>
+            <div class="info">
+              <p>Humidity</p>
+              <div id="info3"></div>
+            </div>
+            <div class="info">
+              <p>Precip</p>
+              <div id="info4"></div>
+            </div>
+            <div class="info">
+              <p>Pressure</p>
+              <div id="info5"></div>
+            </div>
+            <br />
+          </div>
+        </div>
+      </div>
+      <footer id="time-date"></footer>
+    </div>
+  </body>
+</html>
