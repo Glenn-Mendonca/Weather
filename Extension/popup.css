@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 250px;
+  font-family: "Crimson Pro", serif;
+  font-size: 1.3em;
+  overflow: hidden;
+}
+
+.container header {
+  background-color: rgb(254, 185, 49);
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+
+.container footer {
+  background-color: rgb(254, 185, 49);
+  width: auto;
+  bottom: 0%;
+  text-align: right;
+}
+
+.container .main {
+  display: flex;
+  flex-direction: row;
+}
+
+.container .main .details {
+  width: 50%;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.container .main .temperature {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 1.5em;
+}
+
+.container .main .temperature #unit {
+  font: inherit;
+  border: none;
+  margin-left: 5px;
+  transition: 0.3s;
+}
+
+.container .main .temperature #unit:hover {
+  font-size: 1.3em;
+  margin-top: -4.5px;
+}
+
+.container .main .details h4 {
+  padding-bottom: 5px;
+}
+
+.container .main .details .data {
+  padding-top: 5px;
+}
+
+.container .main .details .data .info {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.container header .location {
+  width: 75%;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.container header #icon {
+  width: auto;
+  margin-top: -10px;
+}
+
+.container .main .details .data .info p {
+  width: 50%;
+  font-size: 1.05em;
+}
+
+.container header .location #city-country {
+  font-size: 1.4em;
+}

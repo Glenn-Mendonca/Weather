@@ -1,0 +1,21 @@
+{
+  "name": "Weather",
+  "version": "0.0.1",
+  "description": "A simplestic ",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "./Images/logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["popup.css"],
+      "js": ["popup.js"]
+    }
+  ],
+  "icons": {
+    "128": "./Images/logo.png"
+  },
+  "permissions": ["geolocation"]
+}
